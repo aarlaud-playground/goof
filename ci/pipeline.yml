@@ -6,9 +6,9 @@ resources:
     branch: master
 
 jobs:
-- name: test-app
+- name: Install Dependencies
   plan:
   - get: goof
     trigger: true
-  - task: tests
+  - task: build app
     file: goof/build.yml

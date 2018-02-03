@@ -9,4 +9,4 @@ inputs:
 - name: goof
 
 run:
-  path: ./goof/ci/test.sh
+  path: ./goof/ci/build.sh
