@@ -1,0 +1,14 @@
+resources:
+- name: goof
+  type: git
+  source:
+    uri: https://github.com/aarlaud-playground/goof
+    branch: master
+
+jobs:
+- name: test-app
+  plan:
+  - get: goof
+    trigger: true
+  - task: tests
+    file: goof/build.yml
