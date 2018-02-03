@@ -12,3 +12,12 @@ jobs:
     trigger: true
   - task: build app
     file: goof/build.yml
+  - task: install snyk
+    file: goof/ci/install_snyk.sh
+- name: Snyk Test
+  plan:
+  - get: goof
+    trigger: true
+    passed: [Install Dependencies]
+  - task: Run Snyk Test
+    file: goof/ci/snyk_test.sh
