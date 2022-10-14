@@ -3,6 +3,9 @@ kind: Component
 metadata:
   name: goof
   description: Goof
+annotations:
+  snyk.io/org-name: antoine-playground
+  snyk.io/project-ids: 8d065c72-3481-4d25-ac84-1458de97c490
 spec:
   type: service
   lifecycle: production
