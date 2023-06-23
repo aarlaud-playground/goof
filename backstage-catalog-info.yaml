@@ -5,7 +5,7 @@ metadata:
   description: Goof
   annotations:
     snyk.io/org-id: f20676f4-3066-40aa-bdf6-ac28ba609ab6
-    github.com/team-slug: aarlaud-playground/goof
+    github.com/project-slug: aarlaud-playground/goof
 spec:
   type: service
   lifecycle: production
