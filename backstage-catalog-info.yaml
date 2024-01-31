@@ -4,7 +4,8 @@ metadata:
   name: goof
   description: Goof
   annotations:
-    snyk.io/org-id: f20676f4-3066-40aa-bdf6-ac28ba609ab6
+    snyk.io/org-ids: f20676f4-3066-40aa-bdf6-ac28ba609ab6,78c91b61-4b8c-4c33-b15c-eeb94258f22b
+    #snyk.io/org-id: f20676f4-3066-40aa-bdf6-ac28ba609ab6
     github.com/project-slug: aarlaud-playground/goof
 spec:
   type: service
