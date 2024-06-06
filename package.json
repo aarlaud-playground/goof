@@ -1,7 +1,7 @@
 {
   "name": "goof",
   "version": "0.0.3",
-  "description": "A vulnerable todo demo application",
+  "description": "A vulnerable todo demo application goof",
   "homepage": "https://snyk.io/",
   "repository": {
     "type": "git",
